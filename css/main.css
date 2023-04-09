@@ -778,6 +778,7 @@ margin-left: 50px;
 .advantages-websdudio {
   /* outline: 2px solid springgreen; */
 .hero {
+  max-width: 100%;
   margin: auto;
   background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image-squooshed.jpg);
   background-color: black;
@@ -1013,6 +1014,7 @@ margin-left: 50px;
 }
 
 .our-clients-logo {
+  color: #8E8F99;
   display: flex;
   width: 168px;
   height: 88px;
@@ -1022,10 +1024,11 @@ margin-left: 50px;
 
 .our-clients-logo:hover, .our-clients-logo:focus {
   border: 1px solid #4D5AE5;
+  color: #4D5AE5;
 }
 
 .client-logo-svg {
-  fill: #8E8F99;
+  fill: currentColor;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1224,7 +1227,7 @@ margin-left: 50px;
   padding-bottom: 6px;
   margin-bottom: 50px;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
